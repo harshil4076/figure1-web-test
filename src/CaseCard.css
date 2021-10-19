@@ -1,0 +1,60 @@
+.CaseCard {
+    width: 100%;
+    height: 100px;
+    background-color: #f7f7f7;
+    display: flex;
+    margin-bottom: 2px;
+}
+@media(max-width : 815px) {
+    .CaseCard {
+        flex-direction: column;
+        max-width: 260px;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 15px;
+    }
+    .CaseImage{
+        width: 50%;
+        max-height: 100px;
+        object-fit: cover;
+    }
+    .CaseDetail{
+        max-width: 100%;
+    }
+
+}
+.CaseCard p {
+    margin: 0;
+}
+
+.CaseImage {
+    width: 100px;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.CaseDetail {
+    width: 475px;
+    padding-top: 15px;
+    flex-grow: 1;
+}
+
+
+.LearnMoreDiv {
+    justify-content: center;
+    align-items: center ;
+    padding-top: 15px;
+    flex-grow: 1;
+}
+.LearnMoreLink {
+    border: none;
+    background-color: #4bbbc3;
+    color: black;
+    font-weight: 700;
+    font-size: large;
+    padding: 8px;
+    margin: 5px;
+    width: 150px;
+    border-radius: 5px;
+}
